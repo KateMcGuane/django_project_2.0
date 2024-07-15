@@ -19,6 +19,6 @@ from django.urls import path, include
 from hello_world import views as index_views  # giving views.py an alias of index_views; easier to read & maintain urls.py
 
 urlpatterns = [
-    path('', index-vies.index, name='index'),
+    path('', index-views.index, name='index'),
     path('admin/', admin.site.urls),
 ]
